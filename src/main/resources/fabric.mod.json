@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hacks",
+  "version": "${version}",
+  "name": "mcHacks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hacks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.hacks.client.HacksClient"
+    ],
+    "main": [
+      "net.hacks.Hacks"
+    ]
+  },
+  "mixins": [
+    "hacks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

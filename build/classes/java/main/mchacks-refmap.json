@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "net/hacks/mixin/ClientConnectionMixin": {
+      "send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;Z)V": "Lnet/minecraft/class_2535;method_52906(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;Z)V"
+    },
+    "net/hacks/mixin/GameMenuScreenMixin": {
+      "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+    },
+    "net/hacks/mixin/PlayerMoveC2SPacketAccessor": {
+      "onGround": "field_29179:Z",
+      "y": "field_12886:D"
+    },
+    "net/hacks/mixin/ServerPlayNetworkHandlerMixin": {
+      "Lnet/minecraft/server/network/ServerPlayerEntity;updatePositionAndAngles(DDDFF)V": "Lnet/minecraft/class_3222;method_5641(DDDFF)V",
+      "onPlayerMove": "Lnet/minecraft/class_3244;method_12063(Lnet/minecraft/class_2828;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/hacks/mixin/ClientConnectionMixin": {
+        "send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;Z)V": "Lnet/minecraft/class_2535;method_52906(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;Z)V"
+      },
+      "net/hacks/mixin/GameMenuScreenMixin": {
+        "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+      },
+      "net/hacks/mixin/PlayerMoveC2SPacketAccessor": {
+        "onGround": "field_29179:Z",
+        "y": "field_12886:D"
+      },
+      "net/hacks/mixin/ServerPlayNetworkHandlerMixin": {
+        "Lnet/minecraft/server/network/ServerPlayerEntity;updatePositionAndAngles(DDDFF)V": "Lnet/minecraft/class_3222;method_5641(DDDFF)V",
+        "onPlayerMove": "Lnet/minecraft/class_3244;method_12063(Lnet/minecraft/class_2828;)V"
+      }
+    }
+  }
+}

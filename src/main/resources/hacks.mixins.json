@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hacks.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "ClientConnectionMixin",
+    "PlayerMoveC2SPacketAccessor",
+    "ServerPlayNetworkHandlerMixin"
+  ],
+  "client": [
+    "GameMenuScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
